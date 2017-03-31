@@ -1,0 +1,7 @@
+ul { padding: 0; margin: 0 }
+
+#carousel { width: 1140px; overflow-x: hidden; }
+#carousel-items { width: 4000px; position: relative; left: 0; transition: 1s; }
+#carousel-items .item, #carousel-items ul>div { display: inline-block; margin: 0 6px }
+
+.image-carousel { height: 200px !important; width: 250px !important }

@@ -28,6 +28,10 @@ const webpackCommon = {
         test: /\.css$/,
         exclude: /node_modules/,
         loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
+      },
+      {
+        test: /\.json$/,
+        loader: 'json'
       }
     ]
   },
@@ -58,7 +62,8 @@ const webpackCommon = {
     })
   ],
   resolve: {
-    root: path.join(__dirname, './app')
+    root: path.join(__dirname, './app'),
+    extensions: ['', '.js', '.jsx', '.json']
   },
   resolveLoader: {
     root: path.join(__dirname, './node_modules')

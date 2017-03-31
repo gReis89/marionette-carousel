@@ -1,5 +1,6 @@
-<div class="col-xs-3">
+<li class="item">
   <a href="#" class="thumbnail">
-    <img src="http://lorempixel.com/400/400/" alt="" />
+    <img class="image-carousel" src="<%- image %>" alt="" />
+    <%- title %>
   </a>
-</div>
+</li>

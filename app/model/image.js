@@ -1,12 +1,12 @@
 import { Model } from 'backbone'
 
-export class Images extends Model {
+export class Image extends Model {
   defaults () {
     return {
       title: 'Not specified',
-      images: 'http://lorempixel.com/400/400/'
+      image: 'http://lorempixel.com/400/400/'
     }
   }
 }
 
-export default Images
+export default Image

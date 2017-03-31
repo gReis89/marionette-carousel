@@ -10,3 +10,4 @@ email: guilherme.r89@gmail.com
     * Inside this folder run: `npm install`
 * Run:
     * `npm start` — starts project
+    * go to `http://localhost:8080/public`
