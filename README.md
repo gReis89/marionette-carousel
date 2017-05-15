@@ -1,4 +1,4 @@
-# Application to Whitespectre
+# Marionette carousel
 
 Author: Guilherme Rodrigues
 skype: Guilherme.r89
